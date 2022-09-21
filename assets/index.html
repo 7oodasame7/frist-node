@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@200;400;500;700&family=Nunito:wght@200;300;500;600;700&family=Oswald:wght@200;400;500&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./image/icon.jpg" type="image/x-icon">
+    <title>الملاح للمعمار</title>
+</head>
+
+<body>
+    <section class="main">
+        <div class="container">
+            <div class="form-box">
+                <h1 class="header">معماري للعماره والديكور</h1>
+            </div>
+            <div class="form-input">
+                <form action="/sendEmail" method="post">
+                    <div class="form-control">
+                        <input type="text" name="userName" placeholder="الاسم :" required>
+                        <input type="tel" name="telUser" placeholder="رقم الموبايل :" required>
+                        <h2>الاعمال التي ترغب بعملها :</h2>
+                        <div class="check">
+                            <input id="" type="checkbox" name="inside" value="تشطيبات خارجيه">
+                            <label for="">تشطيبات خارجيه</label>
+                        </div>
+                        <div class="check">
+                            <input id="" type="checkbox" name ='inside' value="تشطيبات داخليه">
+                            <label for=""> تشطيبات داخليه</label>
+                        </div>
+                        <div class="check">
+                            <input id="" type="checkbox" name="inside" value="عقارات">
+                            <label for="">عقارات</label>
+                        </div>
+                        <div class="check">
+                            <input id="" type="checkbox" name="inside" value="تنفيذ انشائي">
+                            <label for="">تنفيذ انشائي</label>
+                        </div>
+                        <div class="check">
+                            <input id="" type="checkbox" name="inside" value="اثاث">
+                            <label for="">اثاث</label>
+                        </div>
+                        <h2>اشخاص تقترحهم للاستفاده من خدمتنا :</h2>
+                        <input type="text" name="suggName1" placeholder="الاسم :">
+                        <input type="tel" name="suggtel1" placeholder="رقم الموبايل :">
+                        <input type="text" name="suggName2" placeholder="الاسم :">
+                        <input type="tel" name="suggtel2" placeholder="رقم الموبايل :">
+                    </div>
+                    <button type="submit" class="btn">ارسال الطلب</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- end Form -->
+
+    <!-- start Footer -->
+    <footer class="footer">
+
+        <div class="container">
+            <div class="address">
+                <div class="img">
+                    <img src="./image/Capture.PNG" alt="">
+                </div>
+                <div class="address-content">
+                    <h3>دمياط - ميدان سرور - برج التحرير - الدور الخامس</h3>
+                </div>
+            </div>
+            <div class="address">
+                <div class="address-content">
+                    <h3>01063459521 - 01032187392</h3>
+                </div>
+                <div class="img">
+                    <img src="./image/Capture2.PNG" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
